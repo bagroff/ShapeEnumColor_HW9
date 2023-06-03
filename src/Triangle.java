@@ -5,7 +5,7 @@ class Triangle extends Shape {
     private double side2;
     private double side3;
 
-    public Triangle(String color, double side1, double side2, double side3) {
+    public Triangle(Color color, double side1, double side2, double side3) {
         super(color);
         this.side1 = side1;
         this.side2 = side2;

@@ -1,7 +1,7 @@
 abstract class Shape {
-    String color;
+    Color color;
 
-    public Shape(String color) {
+    public Shape(Color color) {
         this.color = color;
     }
 
@@ -13,11 +13,11 @@ abstract class Shape {
         System.out.println("Painting shape with color: " + color);
     }
 
-    public String getColor() {
+    public Color getColor() {
         return color;
     }
 
-    public void setColor(String color) {
+    public void setColor(Color color) {
         this.color = color;
     }
 }
